@@ -268,7 +268,7 @@
     <div class="background-overlay"></div>
 
     <div class="container">
-        <h1>Rastreador de Combate D&D 5e</h1>
+      
 
         <div id="create-form">
             <input type="text" id="enemy-name" placeholder="Nombre del Enemigo (Ej: Guardia 1)" required>
@@ -411,10 +411,11 @@
 
         // Inicializar con los 4 guardias
         function initialize() {
-            createEnemyWithData("Guardia 1", 11, 16);
-            createEnemyWithData("Guardia 2", 11, 16);
-            createEnemyWithData("Guardia 3", 11, 16);
-            createEnemyWithData("Guardia 4 (Líder)", 15, 16); // Líder con más HP
+            createEnemyWithData("Guardia 1", 20, 10);
+            createEnemyWithData("Guardia 2", 20, 10);
+            createEnemyWithData("Guardia 3", 20, 10);
+            createEnemyWithData("Guardia 4", 20, 10);
+            createEnemyWithData("Capitan", 40, 10); // Líder con más HP
             renderEnemies(); // Renderiza por primera vez
         }
 
